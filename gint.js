@@ -11,7 +11,7 @@
  * --------------------------------------------------------------------------
  */
 
-class Gint {
+class gint {
     // --- Constants ---
     static TERMINAL_BIT = 1n << 63n; // L1: 1 (Fixed), L2: 0 (Dynamic)
     static WEIGHT_MASK  = 0x3Fn;      // Lower 6 bits reserved for VW Weight (Rank 0-63)
